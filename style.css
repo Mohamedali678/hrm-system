@@ -1,0 +1,272 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-side {
+    position: fixed;
+    width: 18%;
+    height: 100vh;
+    background-color: darkblue;
+    color: white
+
+}
+
+ul li {
+    padding: 22px;
+    
+}
+
+
+ul li a{
+    margin: 12px;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: black;
+    padding: 12px 5px;
+    width: 100%;
+}
+
+.current a {
+    text-decoration: underline;
+
+}
+
+
+
+iconify-icon  {
+    padding-right: 10px;
+}
+
+.main {
+   
+    height: 100vh;
+    margin-left: 18%;
+}
+
+.main h4 {
+    font-size: 22px;
+    margin-left: 60px;
+}
+
+
+input {
+    padding: 4px;
+    width: 900px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 60px;
+    border: 1px solid darkblue;
+}
+
+.btn {
+    width: 120px;
+    background-color: darkblue;
+    color: white;
+    font-size: 22px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    
+}
+
+th {
+    
+    padding: 10px;
+    color: white;
+    font-size: 22px;
+    background-color: blue;
+}
+
+td {
+    font-size: 24px;
+    padding: 12px;
+   
+}
+
+tr:nth-child(odd){
+    background-color: #d4cfcf;
+}
+
+
+.deleteBtn {
+ 
+   height: 40px;
+   background-color: red;
+   color: white;
+   padding: 8px;
+   margin: 10px;
+   border-radius: 6px;
+}
+
+.updateBtn {
+    height: 40px;
+    background-color: green;
+    color: white;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+
+a:hover {
+
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+
+
+input[type="text"]
+{
+    font-size:20px;
+}
+
+
+.boxes {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.box1 {
+    border-radius: 8px;
+    
+
+    padding-left: 8px;
+    background-color: #FA510F;
+    height: 200px;
+    width: 350px;
+    margin: 12px;
+}
+
+.box1 h1 {
+    padding-top: 12px;
+    font-size: 55px;
+}
+
+.box1 iconify-icon {
+    font-size: 40px;
+    color: white;
+}
+
+.box2 {
+    border-radius: 8px;
+
+    padding-left: 8px;
+    background-color: #101F3C;
+    height: 200px;
+    width: 350px;
+    margin: 12px;
+}
+
+.box2 h1 {
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+.box2 iconify-icon{
+    font-size: 40px;
+    color: white
+}
+
+.box3 {
+    border-radius: 8px;
+    padding-left: 8px;
+    background-color: #0A96C1;
+    height: 200px;
+    width: 350px;
+    margin: 12px;
+}
+
+.box3 iconify-icon  {
+    font-size: 40px;
+    color: white;
+    
+}
+
+
+.main button{
+    border-radius: 4px;
+    border:  none;
+    margin-top: 25px;
+    height: 45px;
+    width: 150px;
+    background-color: green;
+}
+
+button a {
+    color: white;
+    font-size: 18px;
+}
+
+button a:hover {
+    background-color: green;
+}
+
+.searchInput {
+    border-radius: 4px;
+    width: 500px;
+    border: 1px darkblue solid;
+}
+
+.btnSearch {
+    border-radius: 8px;
+    color: white;
+    background-color: blue;
+    border: none;
+    height: 45px;
+    width: 130px;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.abovePart {
+    padding: 8px 12px;
+    
+    display: flex;
+    justify-content: space-between
+}
+
+.abovePart button a {
+    color: white;
+}
+
+
+.loginForm {
+    padding: 60px 30px;
+    margin: 10% 20%;
+    text-align: center;
+    
+}
+
+.loginForm input {
+    width: 390px;
+    height: 40px;
+}
+
+.loginForm .loginBtn {
+    width: 120px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    font-size: 24px;
+    
+}
+
+
